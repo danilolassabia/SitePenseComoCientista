@@ -160,6 +160,7 @@ body {
   list-style: none;
   cursor: pointer;
   width: 98%;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
   box-sizing: border-box;
   text-align: justify;
 }
@@ -555,7 +556,7 @@ ul {
   }
 
   .carousel .card {
-    width: 100% !important;
+    width: 98% !important;
     padding: 0;
     padding-top: 20px;
   }
