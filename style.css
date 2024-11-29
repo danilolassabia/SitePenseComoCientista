@@ -298,10 +298,10 @@ ul {
   background-color: rgba(224, 199, 96, 0.8);
   border-radius: 15px;
   bottom: 5px;
-  height: 25vh;
+  height: 150px;
   position: fixed;
   right: 5px;
-  width: 20vw;
+  width: 300px;
   z-index: 2;
 }
 
@@ -313,11 +313,11 @@ ul {
   color: #e0c760;
   display: flex;
   flex-direction: column;
-  height: 25vh;
+  height: 150px;
   justify-content: center;
   position: fixed;
   right: 20px;
-  width: 20vw;
+  width: 300px;
   z-index: 2;
 }
 
@@ -330,6 +330,7 @@ ul {
 
 .small-front-container p {
   font-size: 15px;
+  text-align: center;
 }
 
 .subtitle {
@@ -497,10 +498,13 @@ ul {
     grid-auto-columns: calc((100% / 2) - 12px);
   }
 
+  .small-back-container, .small-front-container{
+    width: 200px;
+  }
+
   .small-front-container,
   .small-front-container .button {
-    font-size: 12px;
-    text-align: center;
+    font-size: 15px;
   }
 }
 
@@ -591,9 +595,13 @@ ul {
     min-height: fit-content;
   }
 
+  .small-front-container, .small-back-container{
+    width: 200px;
+  }
+
   .small-front-container,
-  .small-back-container {
-    display: none;
+  .small-front-container .button {
+    font-size: 15px;
   }
 
   .text-container {
