@@ -191,10 +191,11 @@ body {
 }
 
 .front-container {
-  background: #000000;
+  background: linear-gradient(30deg, #020024 0%, #020d62 35%, #020024 100%);
   border-radius: 15px;
   bottom: 5vh;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 1);
+  color: #e0c760;
   position: relative;
   right: 2.5vw;
   text-align: center;
@@ -203,7 +204,6 @@ body {
 
 .front-container-content {
   align-items: center;
-  color: #e0c760;
   display: flex;
   flex-direction: column;
   padding: 30px;
@@ -303,6 +303,7 @@ ul {
   right: 5px;
   width: 300px;
   z-index: 2;
+  display: none;
 }
 
 .small-front-container {
@@ -311,7 +312,7 @@ ul {
   border-radius: 15px;
   bottom: 20px;
   color: #e0c760;
-  display: flex;
+  display: none;
   flex-direction: column;
   height: 150px;
   justify-content: center;
@@ -498,7 +499,8 @@ ul {
     grid-auto-columns: calc((100% / 2) - 12px);
   }
 
-  .small-back-container, .small-front-container{
+  .small-back-container,
+  .small-front-container {
     width: 200px;
   }
 
@@ -595,7 +597,8 @@ ul {
     min-height: fit-content;
   }
 
-  .small-front-container, .small-back-container{
+  .small-front-container,
+  .small-back-container {
     width: 200px;
   }
 
