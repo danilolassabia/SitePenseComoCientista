@@ -571,6 +571,10 @@ ul {
     width: 100%;
   }
 
+  .front-container .subtitle{
+    font-size: 30px;
+  }
+
   .guarantee-image {
     height: 50vw;
   }
